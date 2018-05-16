@@ -1,0 +1,14 @@
+*.aux
+*.glob
+*.v.d
+*.vo
+
+/run/_build
+/run/src/generated.ml*
+*.install
+*.native
+*.byte
+/bin
+
+.exrc
+/rondom

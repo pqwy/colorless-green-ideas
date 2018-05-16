@@ -1,0 +1,8 @@
+true: color(always), bin_annot, safe_string
+true: package(bytes)
+true: package(nocrypto nocrypto.unix rresult lwt.unix)
+
+<src>: include
+<src/generated.ml>: warn(A-4-9-39-41-48-58)
+
+true: warn(A-4-9-41-44-48-58)
